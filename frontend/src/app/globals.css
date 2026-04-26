@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030712;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.react-flow__node {
+  border-radius: 8px;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #38BDF8;
+}
+
+.react-flow__attribution {
+  display: none;
+}
